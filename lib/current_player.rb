@@ -1,4 +1,4 @@
-def return_count (board) 
+def turn_count (board) 
   
   return number_turn_played
 end 
