@@ -7,7 +7,7 @@ def turn_count (board)
     
     number_of_turn_played = occupied 
     # puts "counter is #{number_of_turn_played}"
-  end
+  # end
   
   return number_of_turn_played
 end 
