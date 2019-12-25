@@ -13,9 +13,9 @@ def current_player (board)
   next_payer = turn_count(board)
   
   if next_payer%2 != 0 
-    return "X"
+    "X"
   else 
-    return "O"
+    "O"
   end
 end 
 
