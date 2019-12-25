@@ -4,12 +4,12 @@ def turn_count (board)
     if element=="X" || element=="O"
       occupied += 1 
     end 
-    
-    number_of_turn_played = occupied 
+    puts "there are #{occupied} positions"
+    # number_of_turn_played = occupied 
     # puts "counter is #{number_of_turn_played}"
   # end
   
-  return number_of_turn_played
+  # return number_of_turn_played
 end 
 
 def current_player (board)
