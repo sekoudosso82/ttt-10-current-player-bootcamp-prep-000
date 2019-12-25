@@ -14,8 +14,9 @@ def current_player (board)
   
   if next_payer%2 != 0 
     "X"
-  else 
-    "O"
+  # else 
+  #   "O"
   end
+  return "O"
 end 
 
