@@ -1,12 +1,11 @@
 def turn_count (board) 
-  number_of_turn_played = 0 
-  occupied = 0 
-  
+  occupied = 0 # count occupied in board
   board.each do |element|
     if element=="X" || element=="O"
       occupied += 1 
     end 
-    number_of_turn_played +=1 
+    
+    number_of_turn_played = occupied 
     # puts "counter is #{number_of_turn_played}"
   end
   
