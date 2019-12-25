@@ -9,6 +9,12 @@ def turn_count (board)
 end 
 
 def current_player (board)
+  next_payer = turn_count(board)
+  if next_payer%2 = 0 
+    return "X"
+  else 
+    return "O"
+  end
   
 end 
 
