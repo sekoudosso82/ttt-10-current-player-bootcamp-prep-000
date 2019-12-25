@@ -3,7 +3,7 @@ def turn_count (board)
   
   board.each do |element|
     number_of_turn_played +=1 
-    puts "counter is #{number_of_turn_played}"
+    # puts "counter is #{number_of_turn_played}"
   end
   
   return number_of_turn_played
