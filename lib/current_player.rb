@@ -1,10 +1,10 @@
 def turn_count (board) 
     occupied = 0 # count occupied in board
-    board.each do |element|
-      if element=="X" || element=="O"
-        occupied += 1 
-      end 
-    end
+        board.each do |element|
+          if element=="X" || element=="O"
+            occupied += 1 
+          end 
+        end
     return occupied
 end 
 
